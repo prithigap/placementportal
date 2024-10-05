@@ -17,7 +17,7 @@ export default function UserProfile({ initialData }: UserProfileProps) {
   useEffect(() => {
     const fetchUserData = async () => {
       try {
-        const response = await fetch("http://localhost:8000/api/auth/getdata", {
+        const response = await fetch("krishnaprasathk-backend.hf.space/api/auth/getdata", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

@@ -170,7 +170,7 @@ body{
     height: 110vh;
     overflow-x: hidden;
     overflow-y: hidden;
-    background-image: url("public/tiet2.jpg");
+    background-image: url("/tiet2.jpg");
     filter: brightness(90%);
     filter: contrast(90%);
     background-size: 100vw 110vh;
