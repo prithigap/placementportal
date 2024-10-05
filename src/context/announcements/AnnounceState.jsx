@@ -5,7 +5,7 @@ import AnnounceContext from "./AnnounceContext";
 import { useState } from "react";
 
 const AnnouncementState = (props) => {
-    const host = 'http://127.0.0.1:8000'; // Update this with your FastAPI backend URL
+    const host = 'krishnaprasathk-backend.hf.space/'; // Update this with your FastAPI backend URL
     const initially = [];
 
     const [announcements, setAnnouncements] = useState(initially);

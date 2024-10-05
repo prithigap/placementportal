@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const JobAppState = (props) => {
     // Update the host to point to your local FastAPI backend
-    const host = 'http://localhost:8000'; // Change this to your local FastAPI URL
+    const host = 'krishnaprasathk-backend.hf.space/'; // Change this to your local FastAPI URL
     const initially = [];
 
     const [applications, setApplications] = useState(initially);
